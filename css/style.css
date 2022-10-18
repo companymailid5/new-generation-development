@@ -1,0 +1,78 @@
+.widthimg{width: 100%;}
+.box-input input{width: 100%; padding: 10px 10px; border: 1px solid #ccc; border-radius: 3px;}
+.box-input input:focus{border-color: #66afe9; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);}
+.box-input p{margin-bottom: 5px; margin-top: 13px;}
+.input-group-addon{width: 15%; float: left; padding: 13px 12px;}
+.mobilewidth{width: 85% !important;}
+.emailwith{width: 65% !important;}
+.crd{margin-left: 10px !important; width: auto !important;}
+.mrgleft{
+	margin-left: 6px;
+	font-size: 15px;
+	color: #144876;
+}
+.adm{border-bottom: 1px dashed #5c5c5c}
+.make-body{
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 18%, rgba(225, 225, 225, 1) 48%, rgba(246, 246, 246, 1) 82%);
+}
+.underlinelogo {
+    border-top: 1px solid #00000036 !important;
+    margin-top: 10px;
+}
+.bordermarc p {
+    border-bottom: 1px solid #ddd;
+    padding: 4px 0px 13px; font-size: 16px;
+}
+.trac {
+    text-align: right;
+}
+strong{color: #144876;}
+.footer-text{color: #7F8C8D; text-align: justify;
+    padding: 10px 0px;}
+.poweredby{display: flex; justify-content: space-between; background: #ECF0F1; padding: 15px 0px;}
+.paynowbtn{width: 100%; color: #fff; background: #144876; border: none; padding: 10px 0px; font-size: 17px; margin-top: 20px;}
+.input-group{display: block;}
+.box-input select{width: 100%; padding: 10px 5px; height: 43px; border: 1px solid #ccc; border-radius: 3px;}
+.whitebg{background: #fff; padding: 10px 0px;}
+.rightfloat{float: right;}
+.pd0{padding-right: 0px;}
+.mrgt{margin-top: 7px;}
+.footersecond{padding: 15px 0px;}
+.subtbtn:hover{color: #eee;}
+.subtbtn {
+    padding: 5px 16px;
+    font-size: 16px;
+    line-height: 1.33;
+    border-radius: 2px;
+    width: 60%;
+    background: #144876;
+    border-color: #144876;
+    color: #fff;
+}
+.pd6{padding: 6px !important;}
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 20%;
+}
+.cardrd{border-radius: 3px 0px 0px 3px !important;}
+.otpsend{color: red; margin: 0;}
+.btn-lg {
+    padding: 5px 24px;
+    font-size: 15px;
+    line-height: 1.33;
+    border-radius: 0;
+    letter-spacing: 1px;
+    color: #000;
+    border: 1px solid #898989;
+}
+.resendbtn{color: blue; text-decoration: underline; text-align: center;}
+.btntag{
+    text-align: center; margin-top: 10px; color: #7e7e7e; font-size: 12px;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+    outline: none !important;
+}
